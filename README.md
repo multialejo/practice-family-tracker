@@ -140,3 +140,4 @@ Transform the .cvs file into a new table in the database.
 docker compose exec postgres psql -U <username> -d <database> -c "\copy <table>([fields]) FROM '/docker-entrypoint-initdb.d/<file>.csv' DELIMITER ',' CSV HEADER;"
 
 ```
+Thanks [Angela Yu](https://x.com/yu_angela).
