@@ -1,6 +1,8 @@
-# Practice with Postgres databases
+# Practice: Visited countries tracker
 
 This project aims to illustrate some basic and crucial aspects about relational databases, in this case, Postgres databases.
+
+![Visited countries tracker]('./public/view.png)
 
 # Get started
 
