@@ -205,3 +205,6 @@ $RECYCLE.BIN/
 
 # Docker compose
 docker-compose.yml
+
+# Postgres data
+postgres_data
