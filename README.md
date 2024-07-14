@@ -2,7 +2,7 @@
 
 This project aims to illustrate some basic and crucial aspects about relational databases, in this case, Postgres databases.
 
-![Visited countries tracker]('./public/view.png)
+![Visited countries tracker](./public/view.png)
 
 # Get started
 
@@ -142,4 +142,5 @@ Transform the .cvs file into a new table in the database.
 docker compose exec postgres psql -U <username> -d <database> -c "\copy <table>([fields]) FROM '/docker-entrypoint-initdb.d/<file>.csv' DELIMITER ',' CSV HEADER;"
 
 ```
+
 Thanks [Angela Yu](https://x.com/yu_angela).
